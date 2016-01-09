@@ -1,6 +1,6 @@
 {
   "name": "monk",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "lib/monk.js",
   "tags": [
     "mongodb",
@@ -9,13 +9,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/LearnBoost/monk.git"
+    "url": "git://github.com/gvillenave/monk.git"
   },
   "dependencies": {
-    "mongoskin": "1.4.13",
-    "mongodb": "~1.4",
+    "mongoskin": "2.0.*",
+    "mongodb": "2.0.*",
     "debug": "*",
-    "mpromise": "0.5.1"
+    "mpromise": "0.5.*"
   },
   "devDependencies": {
     "mocha": "*",
